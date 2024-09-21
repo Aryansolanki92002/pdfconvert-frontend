@@ -21,7 +21,7 @@ function Home() {
     try {
       const response = await axios.post(
         // "http://localhost:3000/convertFile",
-        "https://pdfconvet-backend.onrender.com",
+        "https://pdfconvet-backend.onrender.com/convertFile",
         formData,
         {
           responseType: "blob",
